@@ -8,5 +8,5 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  arra.sort {|a,b| a.lenght <=> b.length}
+  array.sort {|a,b| a.lenght <=> b.length}
 end
