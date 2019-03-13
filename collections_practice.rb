@@ -48,7 +48,8 @@ def find_a(array)
   return new_array
 end
 
-def sum_array
-
-
+def sum_array(array)
+sum = 0
+array.each {|int| sum = sum + int}
+return sum
 end
