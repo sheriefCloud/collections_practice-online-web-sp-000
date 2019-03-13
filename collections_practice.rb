@@ -12,6 +12,16 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  second = array[1]
+  third = array[2]
+  new_array = []
+  new_array = array.slice(3..array.length)
+  new_array << array[1]
+  new_array << array[2]
+  new_array << array[0]
+end
 
+def reverse_array(array)
+  array.
 
 end
