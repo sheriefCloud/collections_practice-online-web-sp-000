@@ -16,12 +16,39 @@ def swap_elements(array)
   third = array[2]
   new_array = []
   new_array = array.slice(3..array.length)
-  new_array << array[1]
-  new_array << array[2]
-  new_array << array[0]
+  new_array.unshift(array[1])
+  new_array.unshift(array[2])
+  new_array.unshift(array[0])
 end
 
 def reverse_array(array)
-  array.
+counter = array.length
+new_array = []
+  while counter > 0
+  new_array << array[counter-1]
+    counter -= 1
+  end
+return new_array
+end
+
+def kesha_maker(array)
+    new_array = array.each do |string|
+      string[2] = "$"
+    end
+end
+
+
+def find_a(array)
+  new_array = []
+  array.each do |string|
+    if string[0] == "a"
+      new_array << string
+    end
+  end
+  return new_array
+end
+
+def sum_array
+
 
 end
